@@ -29,3 +29,5 @@ reprex::reprex(plot(1:10),
 
 x <- carbonate::carbon$new(readLines('demo_carbonate_reprex_rendered.R'))
 x$carbonate(file = 'myfile.png')
+
+magick::image_write(x$carbons, "myfile.png")
