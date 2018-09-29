@@ -1,3 +1,8 @@
+# for gistfo
+reprex::reprex(plot(1:10))
+gistfo::gistfo()
+
+# outfile
 reprex::reprex(plot(1:10),
                outfile = "demo")
 
